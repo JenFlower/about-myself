@@ -1,42 +1,17 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import styles from "./page.module.css";
+import { Header } from "./components/Header";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+    <main className="main">
+      <Header />
+      <div className="main__title">
+        Меня зовут Оля и я - фронтенд-разработчик.{" "}
+        <span className="main__title_accent-main">Кодю</span> сайты и
+        приложения. Мне нравится расти, обучаться и{" "}
+        <span className="main__title_accent-secondary">
+          помогать в этом коллегам
+        </span>
       </div>
 
       <div className={styles.grid}>
@@ -91,5 +66,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
