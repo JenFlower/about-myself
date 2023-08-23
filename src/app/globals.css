@@ -12,6 +12,11 @@
 /* footer */
 @import url(blocks/footer/footer.css);
 
+/* background */
+@import url(blocks/background/background.css);
+@import url(blocks/background/_primary/background_primary.css);
+@import url(blocks/background/_secondary/background_secondary.css);
+
 :root {
     --max-width: 1100px;
     --border-radius: 12px;
