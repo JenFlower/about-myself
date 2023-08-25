@@ -1,0 +1,12 @@
+.header__menu__link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px black solid;
+    font-size: 18px;
+
+    &:hover {
+        color: orange;
+        border-bottom: 1px orange solid;
+        transition: .3s;
+    }
+}

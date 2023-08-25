@@ -2,5 +2,7 @@
     list-style: none;
     display: grid;
     gap: 20px;
-    grid-template-columns: 60px repeat(3, 1fr);
+    /*grid-template-columns: repeat(3, 1fr) max-content;*/
+    grid-template-columns: repeat(4, max-content);
+    text-align: right;
 }
