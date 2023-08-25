@@ -1,0 +1,7 @@
+.embla__dot_selected:after {
+    background: linear-gradient(
+            45deg,
+            #2f70c1,
+            #7461c3
+    );
+}
