@@ -1,21 +1,5 @@
-const links = [
-  {
-    title: "Кто я?",
-    url: "#",
-  },
-  {
-    title: "Почему веб?",
-    url: "#",
-  },
-  {
-    title: "Какие планы?",
-    url: "#",
-  },
-  {
-    title: "Портфолио",
-    url: "#",
-  },
-];
+import Link from "next/link";
+import { HEADER_LINKS } from "@/app/utils/constants";
 
 export const Header = () => {
   return (
@@ -23,9 +7,15 @@ export const Header = () => {
       <div className="header">
         <span className="header__logo">&#128570;</span>
         <ul className="header__menu">
-          {links.map((link) => (
+          {HEADER_LINKS.map((link) => (
             <li key={link.title}>
-              <a href={link.url}>{link.title}</a>
+              <Link
+                href={link.url}
+                className="header__menu__link"
+                target={link.target && link.target}
+              >
+                {link.title}
+              </Link>
             </li>
           ))}
         </ul>

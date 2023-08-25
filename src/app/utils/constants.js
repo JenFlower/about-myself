@@ -42,3 +42,23 @@ export const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 export const chooseDataSlide = (index) => {
   return DATA[index % DATA.length];
 };
+
+export const HEADER_LINKS = [
+  {
+    title: "Обо мне",
+    url: "#about-me",
+  },
+  {
+    title: "Фишка CSS",
+    url: "#video",
+  },
+  {
+    title: "Проект на GitHub",
+    url: "https://github.com/JenFlower/about-myself",
+    target: "__blank",
+  },
+  {
+    title: "Задачка про мощь JS",
+    url: "/power",
+  },
+];

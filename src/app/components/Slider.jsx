@@ -3,7 +3,8 @@ import React, { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { DotButton, PrevButton, NextButton } from "./SliderButtons";
 import Image from "next/image";
-import { chooseDataSlide, chooseDataSlides } from "@/app/utils/constants";
+import { chooseDataSlide } from "@/app/utils/constants";
+import { Title } from "@/app/components/Title";
 
 export const Slider = ({ slides, options }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
@@ -49,6 +50,7 @@ export const Slider = ({ slides, options }) => {
 
   return (
     <section className="slider">
+      <Title title="О себе" />
       <div className="embla">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container">

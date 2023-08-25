@@ -1,14 +1,14 @@
-import { Header } from "@/app/components/Header";
-import { Main } from "@/app/components/Main";
+import { HeaderPower } from "@/app/components/HeaderPower";
 
-export default function Home() {
+const Power = () => {
   return (
     <>
       <div className="background" />
       <div className="background background_primary" />
       <div className="background background_secondary" />
-      <Header />
-      <Main />
+      <HeaderPower />
     </>
   );
-}
+};
+
+export default Power;
