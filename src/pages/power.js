@@ -1,4 +1,5 @@
 import { HeaderPower } from "@/app/components/HeaderPower";
+import "../app/globals.css";
 
 const Power = () => {
   return (
