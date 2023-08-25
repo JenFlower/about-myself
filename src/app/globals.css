@@ -5,12 +5,15 @@
 @import url(blocks/header/header.css);
 @import url(blocks/header/__logo/header__logo.css);
 @import url(blocks/header/__menu/header__menu.css);
+@import url(blocks/header/__menu/__link/header__menu__link.css);
 
 /* header-container */
 @import url(blocks/header-container/header-container.css);
 @import url(blocks/header-container/__title/header-container__title.css);
 @import url(blocks/header-container/__title/_accent-secondary/header-container__title_accent-secondary.css);
 @import url(blocks/header-container/__title/_accent-main/header-container__title_accent-main.css);
+
+@import url(blocks/title/title.css);
 
 /* footer */
 @import url(blocks/footer/footer.css);
@@ -27,6 +30,7 @@
 @import url(blocks/arrow/_right/arrow_right.css);
 
 /* embla slider */
+@import url(blocks/slider/slider.css);
 @import url(blocks/embla/embla.css);
 @import url(blocks/embla/__button/embla__button.css);
 @import url(blocks/embla/__button/__svg/embla__button__svg.css);
@@ -40,12 +44,15 @@
 @import url(blocks/embla/__slide/__content/embla__slide__content.css);
 @import url(blocks/embla/__slide/__title/embla__slide__title.css);
 @import url(blocks/embla/__slide/__desc/embla__slide__desc.css);
-
 @import url(blocks/embla/__viewport/embla__viewport.css);
 
-@import url(blocks/slider/slider.css);
+/* video */
+@import url(blocks/video-container/video-container.css);
+@import url(blocks/video-container/__content/video-container__content.css);
+@import url(blocks/video-container/__video/video-container__video.css);
 
 * {
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -55,4 +62,5 @@ html,
 body {
     max-width: 100vw;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
