@@ -1,0 +1,7 @@
+.embla__slide__img {
+    display: block;
+    min-height: 300px;
+    max-height: 500px;
+    width: -webkit-fill-available;
+    object-fit: cover;
+}

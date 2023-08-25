@@ -1,6 +1,6 @@
 .header__menu {
-  list-style: none;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 60px repeat(3, 1fr);
+    list-style: none;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 60px repeat(3, 1fr);
 }
