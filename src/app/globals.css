@@ -13,10 +13,10 @@
 @import url(blocks/header-container/__title/_accent-secondary/header-container__title_accent-secondary.css);
 @import url(blocks/header-container/__title/_accent-main/header-container__title_accent-main.css);
 
-@import url(blocks/title/title.css);
+/* header-container-power */
+@import url(blocks/header-container-power/header-container-power.css);
 
-/* footer */
-@import url(blocks/footer/footer.css);
+@import url(blocks/title/title.css);
 
 /* background */
 @import url(blocks/background/background.css);
@@ -50,6 +50,11 @@
 @import url(blocks/video-container/video-container.css);
 @import url(blocks/video-container/__content/video-container__content.css);
 @import url(blocks/video-container/__video/video-container__video.css);
+
+/* power */
+@import url(blocks/power-content/power-content.css);
+@import url(blocks/power-content/__image/power-content__image.css);
+@import url(blocks/power-content/__title/power-content__title.css);
 
 * {
     font-family: 'Roboto', sans-serif;
