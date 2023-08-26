@@ -49,7 +49,7 @@ export const HEADER_LINKS = [
     url: "#about-me",
   },
   {
-    title: "Фишка CSS",
+    title: "Фишки CSS",
     url: "#video",
   },
   {

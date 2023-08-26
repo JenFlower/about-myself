@@ -1,4 +1,7 @@
 .video-container__video {
+    position: absolute;
+    left: 0;
+    top: 50px;
     width: 100%;
-    height: 550px;
+    height: 80%;
 }

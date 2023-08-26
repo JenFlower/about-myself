@@ -50,7 +50,7 @@ export const Slider = ({ slides, options }) => {
 
   return (
     <section className="slider">
-      <Title title="О себе" />
+      <Title title="Обо мне" />
       <div className="embla">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container">
